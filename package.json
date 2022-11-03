@@ -1,0 +1,16 @@
+{
+  "name": "wschat",
+  "version": "1.0.0",
+  "description": "Web Socket chat",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "debug": "nodemon ./server.js",
+    "start": "node ./server.js"
+  },
+  "author": "Mikhalkevich Alexandr",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.4.0"
+  }
+}
